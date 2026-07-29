@@ -75,10 +75,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
   border:1px dashed #c9c9c2;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;
   color:#8a8a80;font-size:13px;text-align:center;padding:16px;font-weight:600;overflow:hidden;position:relative;}
 .ph:has(img){padding:0;border:1px solid var(--line);background:#fff;color:transparent;box-shadow:var(--shadow-sm);}
-.ph img{position:absolute;inset:7px;width:auto;height:auto;max-width:none;border-radius:calc(var(--radius) - 8px);
-  object-fit:cover;object-position:center;}
+.ph img{position:absolute;inset:7px;width:calc(100% - 14px);height:calc(100% - 14px);max-width:none;
+  border-radius:calc(var(--radius) - 8px);object-fit:cover;object-position:center;}
 .hero-visual .ph{height:420px;box-shadow:var(--shadow);}
-.hero-visual .ph img{inset:10px;border-radius:12px;}
+.hero-visual .ph img{inset:10px;width:calc(100% - 20px);height:calc(100% - 20px);border-radius:12px;}
 .hero-badge{position:absolute;left:-18px;bottom:26px;background:#fff;border-radius:14px;box-shadow:var(--shadow);
   padding:14px 18px;display:flex;align-items:center;gap:12px;border-left:5px solid var(--yellow);}
 .hero-badge .stars{color:var(--star);font-size:15px;letter-spacing:1px;}
